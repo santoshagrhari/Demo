@@ -1,0 +1,212 @@
+
+    	html,body{
+			height: 100%;
+			margin: 0;
+			background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(149,199,20,1) 0%, rgba(0,212,255,1) 96%);
+		
+		}
+   
+   .myForm{
+   	background-color: rgba(0,0,0,0.5) !important;
+   	padding: 15px !important;
+   border-radius: 15px !important;
+   color: white;
+   
+   }
+   .t_right{text-align: right;}
+   .check-box-s{ width: 20px; height: 30px;}
+   .rem-c{    margin-top: 4px;  margin-left: 13px; position: absolute;}
+
+  
+   input:focus{
+       outline: none;
+box-shadow:none !important;
+border:1px solid #ccc !important;
+
+   }
+
+   .br-15{
+   	border-radius: 15px 0 0 15px !important;
+   }
+
+   #add_more{
+   	color: white !important;
+   	background-color: #fa8231 !important;
+   	border-radius: 15px !important;
+   	border: 0 !important;
+
+   }
+   #remove_more{
+   	color: white !important;
+   	background-color: #fc5c65 !important;
+   	border-radius: 15px !important;
+   	border: 0 !important;
+   	display: none;
+
+   }
+   	
+   .submit_btn{
+   	border-radius: 15px !important;
+    background-color: #95c714 !important;
+    border: 0 !important;
+   }
+
+.bg-header{background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(73 100 3) 0%, rgb(6 158 189) 96%);}
+
+
+	  .card-title2 {
+    margin-bottom: 0.25rem !important;
+}
+.w-48 {
+    width: 40%!important;
+}
+.border-rad{    border-radius: 13px;}
+.row-space{    margin-top: 11px;}
+/* .custom-gutter > [class*="col-"]:last-child {
+    padding-right: 15px;
+}
+.custom-gutter > [class*='col-'] {
+    padding-right: 4px;
+    padding-left: 4px;
+} */
+
+.shd{box-shadow: 0 5px 0px 0 rgb(0 0 0 / 7%), 0 4px 15px 0 rgb(0 0 0 / 12%);}
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0.55rem !important;
+}
+.h5, h5 {
+    font-size: .95rem !important;
+}
+
+.card-body2 {    padding: 0.85rem;}
+.card-body3 {    padding: .1rem;}
+
+.card-title {
+    margin-bottom: 0.25rem !important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem !important;
+}
+.span4
+{
+    width: 60px;
+    float: left;
+    margin: 0 8px 10px 0px;
+}
+
+.phone
+{
+    margin-top: 15px;
+    background: #fff;
+}
+.tel
+{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid #9e9e9e;
+    border-radius: 0px;
+}
+.num-pad
+{
+    padding-left: 15px;
+}
+
+
+.num
+{
+    border: 1px solid #9e9e9e;
+    -webkit-border-radius: 999px;
+    border-radius: 999px;
+    -moz-border-radius: 999px;
+    height: 60px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+.num:hover
+{
+    background-color: #9e9e9e;
+    color: #fff;
+    transition-property: background-color .2s linear 0s;
+    /* -moz-transition: background-color .2s linear 0s;
+    -webkit-transition: background-color .2s linear 0s;
+    -o-transition: background-color .2s linear 0s; */
+}
+.txt
+{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: 'Lato' , sans-serif;
+    line-height: 19px;
+    color: #333;
+}
+.small
+{
+    font-size: 12px;
+}
+
+.btn
+{
+    font-weight: bold;
+    /* -webkit-transition: .1s ease-in background-color;
+    -webkit-font-smoothing: antialiased; */
+    letter-spacing: 1px;
+}
+.btn:hover
+{
+    transition-property: background-color .2s linear 0s;
+    /* -moz-transition: background-color .2s linear 0s;
+    -webkit-transition: background-color .2s linear 0s;
+    -o-transition: background-color .2s linear 0s; */
+}
+.spanicons
+{
+    width: 68px;
+    float: left;
+    text-align: center;
+    margin-top: 11px;
+    color: #9e9e9e;
+    font-size: 22px;
+    cursor: pointer;
+}
+.spanicons:hover
+{
+    color: #3498db;
+    transition-property: color .2s linear 0s;
+    /* -moz-transition: color .2s linear 0s;
+    -webkit-transition: color .2s linear 0s;
+    -o-transition: color .2s linear 0s; */
+}
+.active
+{
+    color: #3498db;
+}
+#form1 {
+    display : none;
+}
+button {
+    margin-bottom: 10px;
+}
+
+table{
+    width:100%;
+}
+#example_filter{
+    float:right;
+}
+#example_paginate{
+    float:right;
+}
+label {
+    display: inline-flex;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+   
+}
+
